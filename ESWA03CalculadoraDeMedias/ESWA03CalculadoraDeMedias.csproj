@@ -1,9 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<AssemblyName>ESWA03CalculadoraDeMedias</AssemblyName>
+		<RootNamespace>OOPFoundation</RootNamespace>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<!-- NuGet -->
+		<PackageId>ESWA03CalculadoraDeMedias</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Equipe03</Authors>
+		<Description>Biblioteca de cálculo de médias semestral e final para IES/IEMT — ESWA Equipe 03</Description>
+	</PropertyGroup>
 
 </Project>
