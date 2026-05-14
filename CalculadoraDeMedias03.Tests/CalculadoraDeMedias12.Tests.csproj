@@ -18,7 +18,7 @@
 
   <ItemGroup>
     <!-- Referência à biblioteca de classes -->
-    <ProjectReference Include="..\ESWA03CalculadoraDeMedias\ESWA03CalculadoraDeMedias.csproj" />
+    <ProjectReference Include="..\ESWA03CalculadoraDeMedias\ESWA12CalculadoraDeMedias.csproj" />
   </ItemGroup>
 
 </Project>

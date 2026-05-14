@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 18
-VisualStudioVersion = 18.5.11723.231
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESWA03CalculadoraDeMedias", "ESWA03CalculadoraDeMedias\ESWA03CalculadoraDeMedias.csproj", "{8857E79C-8E3F-4B35-B4B6-3A54B1F6B105}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESWA12CalculadoraDeMedias", "ESWA03CalculadoraDeMedias\ESWA12CalculadoraDeMedias.csproj", "{8857E79C-8E3F-4B35-B4B6-3A54B1F6B105}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraDeMedias03", "CalculadoraDeMedias03\CalculadoraDeMedias03.csproj", "{C03D9C94-7E3A-4894-92C6-4F8406E4E978}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraDeMedias12", "CalculadoraDeMedias03\CalculadoraDeMedias12.csproj", "{C03D9C94-7E3A-4894-92C6-4F8406E4E978}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraDeMedias03.Tests", "CalculadoraDeMedias03.Tests\CalculadoraDeMedias03.Tests.csproj", "{876C8B82-46DA-4680-8E3E-6716B913E762}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraDeMedias12.Tests", "CalculadoraDeMedias03.Tests\CalculadoraDeMedias12.Tests.csproj", "{876C8B82-46DA-4680-8E3E-6716B913E762}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

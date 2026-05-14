@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ESWA03CalculadoraDeMedias\ESWA03CalculadoraDeMedias.csproj" />
+    <ProjectReference Include="..\ESWA03CalculadoraDeMedias\ESWA12CalculadoraDeMedias.csproj" />
   </ItemGroup>
 
 </Project>
