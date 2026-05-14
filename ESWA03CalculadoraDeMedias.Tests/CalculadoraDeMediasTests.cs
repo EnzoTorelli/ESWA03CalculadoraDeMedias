@@ -1,4 +1,4 @@
-﻿using Xunit;
+using Xunit;
 using OOPFoundation.Calculator;
 using OOPFoundation.Concrete;
 
@@ -116,8 +116,8 @@ namespace CalculadoraDeMedias03.Tests
         [Fact]
         public void CalculateSemestralAverage_NotaInvalida_DeveLancarArgumentException()
         {
-            Assert.Throws<ArgumentException>(() =>
-                _calc.CalculateSemestralAverage(-1.0, 5.0, 5.0));
+            var ex = Record.Exception(() => _calc.CalculateSemestralAverage(-1.0, 5.0, 5.0));
+            Assert.IsType<ArgumentException>(ex);
         }
     }
 
@@ -194,8 +194,8 @@ namespace CalculadoraDeMedias03.Tests
         [Fact]
         public void CalculateFinalAverage_NotaInvalida_DeveLancarArgumentException()
         {
-            Assert.Throws<ArgumentException>(() =>
-                _calc.CalculateFinalAverage(5.0, -1.0));
+            var ex = Record.Exception(() => _calc.CalculateFinalAverage(5.0, -1.0));
+            Assert.IsType<ArgumentException>(ex);
         }
     }
 
